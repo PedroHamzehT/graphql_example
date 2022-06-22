@@ -3,7 +3,7 @@ class Mutations::CreateUser < Mutations::BaseMutation
   argument :last_name, String, required: true
   argument :email, String, required: true
 
-  field :user, Types::UserType, null: false
+  field :user, Types::UserType
   field :errors, [String], null: false
 
   def resolve(first_name:, last_name:, email:)
