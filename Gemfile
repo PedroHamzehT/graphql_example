@@ -49,3 +49,4 @@ end
 
 gem 'graphql'
 gem 'sass-rails'
+gem 'faker'
